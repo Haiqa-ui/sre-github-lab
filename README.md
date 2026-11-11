@@ -64,7 +64,7 @@ NFR-02: Every task action shall work using only a keyboard, checked against each
 
 FR-01: Given the title "Read Chapter 1", saving a new task makes that title appear in the task list.
 
-FR-02: Given two saved tasks, opening the list shows both titles.
+FR-02: Given two saved tasks, opening the list shows their titles.
 
 FR-03: Marking an incomplete task complete changes its displayed status to Complete.
 
@@ -76,7 +76,7 @@ Assumption A-01: Students will access the task tracker primarily via modern web 
 
 Question Q-01: Will task data need to persist across multiple browser sessions using local storage or a backend database?
 
-Question Q-02: Which device will be used to test NFR-01?
+Question Q-02: Which OS and browser will serve as baseline environment to test NFR-02?
 
 
 
